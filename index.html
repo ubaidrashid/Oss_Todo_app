@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+
+  <title>Ubaidaa-Oss | Todo app</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="body dark-body">
+  <main>
+
+    <div class="hero-img">
+      <div class="header">
+        <div class="container-head">
+          <h1>Todo</h1>
+        </div>
+        <div class="light-dark-icon">
+          <div class="dark-moon none"><img src="assets/images/icon-moon.svg" alt=""></div>
+          <div class="light-sun"><img src="assets/images/icon-sun.svg" alt=""></div>
+        </div>
+      </div>
+      <div class="desktop">
+        <img class="hero-dark-img " src="assets/images/bg-desktop-dark.jpg" alt="">
+        <img class="hero-light-img none" src="assets/images/bg-desktop-light.jpg" alt="">
+      </div>
+      <div class="mob">
+        <img class="hero-dark-img-mob " src="assets/images/bg-mobile-dark.jpg" alt="">
+        <img class="hero-light-img-mob none " src="assets/images/bg-mobile-light.jpg" alt="">
+      </div>
+    </div>
+
+
+
+    <div class="cont-overlay">
+      <div class="input input-dark">
+        <div class="circle">
+          <div class="round">
+            <img class="round-img none" src="assets/images/icon-check.svg" alt="">
+          </div>
+        </div>
+        <input id="input" type="text" placeholder="Create a new todo...">
+      </div>
+      <div class="container dark-container color-light none">
+        <!-- <div class="li">
+          <div class="circle">
+            <div class="round ">
+              <img class="round-img none" src="assets/images/icon-check.svg" alt="">
+            </div>
+          </div>
+          <div class="text">
+            <span>
+              
+            </span>
+            <div class="deleteIcon none">
+              <img src="assets/images/icon-cross.svg" alt="">
+            </div>
+          </div>
+        </div> -->
+        <div class="last-row">
+          <div class="item-left">
+            <span id="left-count"></span> items left
+          </div>
+          <div class="opt">
+            <div class="all active">
+              All
+            </div>
+            <div class="actives">
+              Active
+            </div>
+            <div class="completed">
+              Completed
+            </div>
+          </div>
+          <div class="clear-completed">
+            Clear Completed
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Drag and drop to reorder list -->
+  </main>
+  <footer>
+
+    <div class="attribution color-light">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/ubaidrashid/" target="_blank">ubaidaa-oss</a>.
+    </div>
+  </footer>
+  <script src="assets/js/chat.js"></script>
+</body>
+
+</html>
